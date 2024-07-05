@@ -1,0 +1,11 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Client For The Chat Server",
+  "main": "Client.js",
+  "scripts": {
+    "test": "npm run Client.js"
+  },
+  "author": "shehab",
+  "license": "ISC"
+}
