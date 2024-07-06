@@ -3,13 +3,6 @@ const chat = require("./Views/chat.js");
 const net = require("net");
 
 
-function wait(second){
-    return new Promise((resolve,reject) => {
-        setTimeout(() => {
-            resolve();
-        }, second * 1000)
-    })
-}
 
 class CLient
 {
